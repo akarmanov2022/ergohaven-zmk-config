@@ -195,10 +195,10 @@
 
         WorkVARM {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RG(C)  &kp RG(V)  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans                    &trans  &trans        &trans        &trans      &trans         &trans
+&trans  &trans     &trans     &trans     &trans     &trans                    &trans  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans
+&trans  &kp LG(Z)  &trans     &kp RG(C)  &kp RG(V)  &trans                    &trans  &trans        &trans        &trans      &trans         &trans
+                   &kp LCTRL  &kp LALT   &trans     &trans  &trans    &trans  &trans  &trans        &trans        &trans
             >;
         };
     };
