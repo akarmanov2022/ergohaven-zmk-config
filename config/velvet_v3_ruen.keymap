@@ -19,11 +19,6 @@
             key-positions = <3 4>;
             layers = <0>;
         };
-
-        mac_p {
-            bindings = <&mac_ps>;
-            key-positions = <19 20>;
-        };
     };
 
     macros {
@@ -79,13 +74,6 @@
             label = "EN";
             wait-ms = <0>;
             tap-ms = <30>;
-        };
-
-        mac_ps: mac_ps {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(G) &kp H &kp B &kp D &kp T &kp N &kp QMARK &kp SPACE &kp LS(V) &kp F &kp R &kp SPACE &kp N2 &kp N0 &kp N2 &kp N4 &kp EXCL>;
-            label = "MAC_PS";
         };
     };
 
