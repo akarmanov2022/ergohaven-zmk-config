@@ -19,6 +19,17 @@
             key-positions = <3 4>;
             layers = <0>;
         };
+
+        games_ru {
+            bindings = <&layer_games>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        games_en {
+            bindings = <&layer_games>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
@@ -74,6 +85,13 @@
             label = "EN";
             wait-ms = <0>;
             tap-ms = <30>;
+        };
+
+        layer_games: layer_games {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 6>;
+            label = "LAYER_GAMES";
         };
     };
 
@@ -143,6 +161,24 @@
             >;
 
             display-name = "Adjust";
+        };
+
+        games {
+            bindings = <
+&trans  &kp ESC    &kp Q      &kp W     &kp E     &kp R                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TAB    &kp A      &kp S     &kp D     &kp F                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp Z      &kp X     &kp C     &kp V                       &trans  &trans  &trans  &trans  &trans  &trans
+                   &kp LCTRL  &kp LALT  &kp LGUI  &mo 7  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        games_1 {
+            bindings = <
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp G                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp B                     &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &kp N0  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
