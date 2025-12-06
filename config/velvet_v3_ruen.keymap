@@ -25,6 +25,12 @@
             key-positions = <7 8>;
             layers = <1 0>;
         };
+
+        games {
+            bindings = <&layer_en>;
+            key-positions = <7 8>;
+            layers = <6>;
+        };
     };
 
     macros {
