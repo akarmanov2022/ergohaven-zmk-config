@@ -23,12 +23,13 @@
         games_ru {
             bindings = <&layer_games>;
             key-positions = <7 8>;
-            layers = <1>;
+            layers = <1 0>;
         };
 
         games_en {
-            bindings = <&layer_games>;
+            bindings = <&layer_en>;
             key-positions = <7 8>;
+            layers = <6>;
         };
     };
 
