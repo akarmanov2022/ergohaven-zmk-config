@@ -21,15 +21,9 @@
         };
 
         games_ru {
-            bindings = <&layer_games>;
+            bindings = <&tog 6>;
             key-positions = <7 8>;
             layers = <1 0>;
-        };
-
-        games_en {
-            bindings = <&layer_en>;
-            key-positions = <7 8>;
-            layers = <6>;
         };
     };
 
@@ -166,19 +160,19 @@
 
         games {
             bindings = <
-&trans  &kp ESC    &kp Q      &kp W     &kp E     &kp R                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TAB    &kp A      &kp S     &kp D     &kp F                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHFT  &kp Z      &kp X     &kp C     &kp V                       &trans  &trans  &trans  &trans  &trans  &trans
-                   &kp LCTRL  &kp LALT  &kp LGUI  &mo 7  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+&kp ESC   &kp GRAVE  &kp Q   &kp W   &kp E     &kp R                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB   &kp LSHFT  &kp A   &kp S   &kp D     &kp F                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LALT  &kp LCTRL  &kp Z   &kp X   &kp C     &kp V                       &trans  &trans  &trans  &trans  &trans  &trans
+                     &trans  &trans  &kp LGUI  &mo 7  &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         games_1 {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &kp G                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &kp B                     &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &kp N0  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp U  &kp Y  &kp N1  &kp N2  &kp N3  &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp J  &kp H  &kp N4  &kp N5  &kp N6  &kp G                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp M  &kp N  &kp N7  &kp N8  &kp N9  &kp B                     &trans  &trans  &trans  &trans  &trans  &trans
+              &trans  &kp N0  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
