@@ -22,7 +22,7 @@
 
         mac_lock {
             bindings = <&mac_lock>;
-            key-positions = <27 28 27 28 26>;
+            key-positions = <37 36>;
             layers = <0 1 7 8>;
         };
 
