@@ -26,9 +26,15 @@
         };
 
         cmbgames {
-            bindings = <&tog 6>;
+            bindings = <&layer_games>;
             key-positions = <16 15 14>;
             layers = <0 1>;
+        };
+
+        from_games {
+            bindings = <&layer_en>;
+            key-positions = <16 15 14>;
+            layers = <6>;
         };
     };
 
