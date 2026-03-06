@@ -26,6 +26,13 @@
             timeout-ms = <50>;
             layers = <0 1 6>;
         };
+
+        cmbgame {
+            bindings = <&tog 7>;
+            key-positions = <25 26 27>;
+            timeout-ms = <50>;
+            layers = <0 1 7>;
+        };
     };
 
     macros {
@@ -162,6 +169,30 @@
 
             display-name = "Aero";
             label = "Aerospace";
+        };
+
+        game {
+            bindings = <
+&kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                        &none  &none  &none  &none  &none  &none
+&kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                        &none  &none  &none  &none  &none  &none
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B                        &none  &none  &none  &none  &none  &none
+                  &none  &kp LALT  &kp LCTRL  &mo 8  &kp SPACE    &kp RET  &none  &none  &none  &none
+            >;
+
+            display-name = "Game";
+            label = "Game";
+        };
+
+        game_num {
+            bindings = <
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &none  &none  &none  &none  &none  &none
+&trans   &trans  &trans  &trans  &trans  &trans                    &none  &none  &none  &none  &none  &none
+&trans   &trans  &trans  &trans  &trans  &trans                    &none  &none  &none  &none  &none  &none
+                 &trans  &trans  &trans  &trans  &trans    &trans  &none  &none  &none  &none
+            >;
+
+            display-name = "Game Num";
+            label = "GameNum";
         };
     };
 };
