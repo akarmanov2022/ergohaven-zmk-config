@@ -172,9 +172,11 @@
         };
 
         game {
+            // ESDF movement: E→W(fwd) S→A(left) D→S(back) F→D(right)
+            // Columnar touch-typing alignment: middle=fwd/back, ring=left, index=right
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                        &none  &none  &none  &none  &none  &none
-&kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                        &none  &none  &none  &none  &none  &none
+&kp ESC    &kp Q  &kp W  &kp W  &kp R  &kp T                        &none  &none  &none  &none  &none  &none
+&kp TAB    &kp A  &kp A  &kp S  &kp D  &kp G                        &none  &none  &none  &none  &none  &none
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B                        &none  &none  &none  &none  &none  &none
                   &none  &kp LALT  &kp LCTRL  &mo 8  &kp SPACE    &kp RET  &none  &none  &none  &none
             >;
@@ -184,6 +186,7 @@
         };
 
         game_num {
+            // Numbers 1-5 at Q/W/E/R/T positions (above ESDF movement cluster)
             bindings = <
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &none  &none  &none  &none  &none  &none
 &trans   &trans  &trans  &trans  &trans  &trans                    &none  &none  &none  &none  &none  &none
