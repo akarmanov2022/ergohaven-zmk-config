@@ -14,6 +14,15 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+
+        spc_lt: space_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     combos {
@@ -29,13 +38,6 @@
             bindings = <&layer_ru>;
             key-positions = <3 4>;
             layers = <0>;
-        };
-
-        cmbaero {
-            bindings = <&tog 6>;
-            key-positions = <40 41>;
-            timeout-ms = <50>;
-            layers = <0 1 6>;
         };
 
         cmbgame {
@@ -117,7 +119,7 @@
 &kp ESC    &kp Q       &kp W       &kp E        &kp R        &kp T                        &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BSPC
 &kp TAB    &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G                        &kp H  &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI  &kp BSLH
 &kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B                        &kp N  &kp M        &kp COMMA    &kp DOT     &kp SQT        &kp RSHFT
-                       &kp GRAVE   &kp LGUI     &kp LCTRL    &mo 2  &kp SPACE    &kp RET  &mo 3  &kp LALT     &kp LBKT     &kp RBKT
+                       &kp GRAVE   &kp LGUI     &kp LCTRL    &mo 2  &spc_lt 6 SPACE    &kp RET  &mo 3  &kp LALT     &kp LBKT     &kp RBKT
             >;
 
             display-name = "Base";
@@ -129,7 +131,7 @@
 &kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE        &kp RU_CYRILLIC_U         &kp RU_CYRILLIC_KA       &kp RU_CYRILLIC_IE                        &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA       &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE        &kp BSPC
 &kp TAB    &hm LGUI RU_CYRILLIC_EF  &hm LALT RU_CYRILLIC_YERU  &hm LCTRL RU_CYRILLIC_VE  &hm LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                        &kp RU_CYRILLIC_ER  &hm RSHFT RU_CYRILLIC_O    &hm RCTRL RU_CYRILLIC_EL  &hm LALT RU_CYRILLIC_DE    &hm RGUI RU_CYRILLIC_ZHE  &kp BSLH
 &kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE        &kp RU_CYRILLIC_ES        &kp RU_CYRILLIC_EM       &kp RU_CYRILLIC_I                         &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE        &kp RU_CYRILLIC_YU         &kp RU_CYRILLIC_E         &kp RSHFT
-                                    &kp RU_CYRILLIC_IO         &kp LGUI                  &kp LCTRL                &mo 2               &kp SPACE    &kp RET  &mo 4               &kp LALT                   &kp RU_CYRILLIC_HA        &kp RU_CYRILLIC_HARD_SIGN
+                                    &kp RU_CYRILLIC_IO         &kp LGUI                  &kp LCTRL                &mo 2               &spc_lt 6 SPACE    &kp RET  &mo 4               &kp LALT                   &kp RU_CYRILLIC_HA        &kp RU_CYRILLIC_HARD_SIGN
             >;
         };
 
@@ -182,7 +184,7 @@
 &kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)     &kp LA(N5)                                    &kp LA(N6)  &kp LA(N7)     &kp LA(N8)     &kp LA(N9)  &trans            &trans
 &trans   &trans      &trans      &kp LCTRL   &kp LSHFT      &trans                                        &kp LA(H)   &kp LA(J)      &kp LA(K)      &kp LA(L)   &kp LA(LS(SEMI))  &trans
 &trans   &trans      &trans      &trans      &kp LA(COMMA)  &kp LA(FSLH)                                  &trans      &kp LA(MINUS)  &kp LA(EQUAL)  &trans      &trans            &trans
-                     &trans      &trans      &trans         &trans        &kp LA(TAB)    &kp LA(LS(TAB))  &trans      &trans         &trans         &trans
+                     &trans      &trans      &trans         &trans        &none          &kp LA(LS(TAB))  &trans      &trans         &trans         &trans
             >;
 
             display-name = "Aero";
