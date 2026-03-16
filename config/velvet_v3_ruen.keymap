@@ -180,7 +180,7 @@
         aero {
             bindings = <
 &kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)     &kp LA(N5)                                    &kp LA(N6)  &kp LA(N7)     &kp LA(N8)     &kp LA(N9)  &trans            &trans
-&trans   &trans      &trans      &trans      &trans         &trans                                        &kp LA(H)   &kp LA(J)      &kp LA(K)      &kp LA(L)   &kp LA(LS(SEMI))  &trans
+&trans   &trans      &trans      &kp LCTRL   &kp LSHFT      &trans                                        &kp LA(H)   &kp LA(J)      &kp LA(K)      &kp LA(L)   &kp LA(LS(SEMI))  &trans
 &trans   &trans      &trans      &trans      &kp LA(COMMA)  &kp LA(FSLH)                                  &trans      &kp LA(MINUS)  &kp LA(EQUAL)  &trans      &trans            &trans
                      &trans      &trans      &trans         &trans        &kp LA(TAB)    &kp LA(LS(TAB))  &trans      &trans         &trans         &trans
             >;
