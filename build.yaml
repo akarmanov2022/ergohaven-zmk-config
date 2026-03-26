@@ -145,4 +145,11 @@ include:
     artifact-name: trackball_v3.1-ergohaven-zmk
 
   - board: ergohaven
+    shield: trackball
+    keymap: trackball_royal
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_KEYBOARD_NAME=\"EH\ TB\ Royal\" -DCONFIG_PMW3610_INVERT_X=y -DCONFIG_PMW3610_INVERT_Y=y
+    artifact-name: trackball_royal-ergohaven-zmk
+
+  - board: ergohaven
     shield: settings_reset
