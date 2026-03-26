@@ -116,9 +116,9 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q       &kp W       &kp E        &kp R        &kp T                        &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BSPC
-&kp TAB    &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G                        &kp H  &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI  &kp BSLH
-&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B                        &kp N  &kp M        &kp COMMA    &kp DOT     &kp SQT        &kp RSHFT
+&kp ESC    &kp Q       &kp W       &kp E        &kp R        &kp T                              &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BSPC
+&kp TAB    &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G                              &kp H  &hm RSHFT J  &hm RCTRL K  &hm LALT L  &hm RGUI SEMI  &kp BSLH
+&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B                              &kp N  &kp M        &kp COMMA    &kp DOT     &kp SQT        &kp RSHFT
                        &kp GRAVE   &kp LGUI     &kp LCTRL    &mo 2  &spc_lt 6 SPACE    &kp RET  &mo 3  &kp LALT     &kp LBKT     &kp RBKT
             >;
 
@@ -128,9 +128,9 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE        &kp RU_CYRILLIC_U         &kp RU_CYRILLIC_KA       &kp RU_CYRILLIC_IE                        &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA       &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE        &kp BSPC
-&kp TAB    &hm LGUI RU_CYRILLIC_EF  &hm LALT RU_CYRILLIC_YERU  &hm LCTRL RU_CYRILLIC_VE  &hm LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                        &kp RU_CYRILLIC_ER  &hm RSHFT RU_CYRILLIC_O    &hm RCTRL RU_CYRILLIC_EL  &hm LALT RU_CYRILLIC_DE    &hm RGUI RU_CYRILLIC_ZHE  &kp BSLH
-&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE        &kp RU_CYRILLIC_ES        &kp RU_CYRILLIC_EM       &kp RU_CYRILLIC_I                         &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE        &kp RU_CYRILLIC_YU         &kp RU_CYRILLIC_E         &kp RSHFT
+&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE        &kp RU_CYRILLIC_U         &kp RU_CYRILLIC_KA       &kp RU_CYRILLIC_IE                              &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA       &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE        &kp BSPC
+&kp TAB    &hm LGUI RU_CYRILLIC_EF  &hm LALT RU_CYRILLIC_YERU  &hm LCTRL RU_CYRILLIC_VE  &hm LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                              &kp RU_CYRILLIC_ER  &hm RSHFT RU_CYRILLIC_O    &hm RCTRL RU_CYRILLIC_EL  &hm LALT RU_CYRILLIC_DE    &hm RGUI RU_CYRILLIC_ZHE  &kp BSLH
+&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE        &kp RU_CYRILLIC_ES        &kp RU_CYRILLIC_EM       &kp RU_CYRILLIC_I                               &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE        &kp RU_CYRILLIC_YU         &kp RU_CYRILLIC_E         &kp RSHFT
                                     &kp RU_CYRILLIC_IO         &kp LGUI                  &kp LCTRL                &mo 2               &spc_lt 6 SPACE    &kp RET  &mo 4               &kp LALT                   &kp RU_CYRILLIC_HA        &kp RU_CYRILLIC_HARD_SIGN
             >;
         };
@@ -181,10 +181,10 @@
 
         aero {
             bindings = <
-&kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)     &kp LA(N5)                                    &kp LA(N6)  &kp LA(N7)     &kp LA(N8)     &kp LA(N9)  &trans            &trans
-&trans   &trans      &trans      &kp LCTRL   &kp LSHFT      &trans                                        &kp LA(H)   &kp LA(J)      &kp LA(K)      &kp LA(L)   &kp LA(LS(SEMI))  &trans
-&trans   &trans      &trans      &trans      &kp LA(COMMA)  &kp LA(FSLH)                                  &trans      &kp LA(MINUS)  &kp LA(EQUAL)  &trans      &trans            &trans
-                     &trans      &trans      &trans         &trans        &none          &kp LA(LS(TAB))  &trans      &trans         &trans         &trans
+&kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)     &kp LA(N5)                              &kp LA(N6)  &kp LA(N7)     &kp LA(N8)     &kp LA(N9)  &trans            &trans
+&trans   &trans      &trans      &kp LCTRL   &kp LSHFT      &trans                                  &kp LA(H)   &kp LA(J)      &kp LA(K)      &kp LA(L)   &kp LA(LS(SEMI))  &trans
+&trans   &trans      &trans      &trans      &kp LA(COMMA)  &kp LA(FSLH)                            &trans      &kp LA(MINUS)  &kp LA(EQUAL)  &trans      &trans            &trans
+                     &trans      &trans      &trans         &trans        &none    &kp LA(LS(TAB))  &trans      &trans         &trans         &trans
             >;
 
             display-name = "Aero";
@@ -196,10 +196,10 @@
             // Columnar touch-typing alignment: middle=fwd/back, ring=left, index=right
 
             bindings = <
-&none  &kp ESC    &kp Q  &kp W     &kp E      &kp R                        &none  &none  &none  &none  &none  &none
-&none  &kp LSHFT  &kp A  &kp S     &kp D      &kp F                        &none  &none  &none  &none  &none  &none
-&none  &none      &kp Z  &kp X     &kp C      &kp V                        &none  &none  &none  &none  &none  &none
-                  &none  &kp LALT  &kp LCTRL  &mo 8  &kp SPACE    &kp RET  &none  &none  &none  &none
+&kp ESC   &kp TAB    &kp Q     &kp W     &kp E      &kp R                        &none  &none  &none  &none  &none  &none
+&kp CAPS  &kp LSHFT  &kp A     &kp S     &kp D      &kp F                        &none  &none  &none  &none  &none  &none
+&none     &none      &kp Z     &kp X     &kp C      &kp V                        &none  &none  &none  &none  &none  &none
+                     &kp LGUI  &kp LALT  &kp LCTRL  &mo 8  &kp SPACE    &kp RET  &none  &none  &none  &none
             >;
 
             display-name = "Game";
