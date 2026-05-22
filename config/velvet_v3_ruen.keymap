@@ -138,10 +138,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q       &kp W       &kp E        &kp R        &kp T                              &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BSPC
-&kp TAB    &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G                              &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr LALT L  &hmr RGUI SEMI  &kp BSLH
-&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B                              &kp N  &kp M        &kp COMMA    &kp DOT     &kp SQT        &kp RSHFT
-                       &kp GRAVE   &kp LGUI     &kp LCTRL    &mo 2  &spc_lt 6 SPACE    &kp RET  &mo 3  &kp LALT     &kp LBKT     &kp RBKT
+&kp ESC         &kp Q        &kp W        &kp E         &kp R             &kp T                              &kp Y  &kp U         &kp I         &kp O        &kp P           &kp BSPC
+&hml GLOBE TAB  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F      &kp G                              &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr LALT L  &hmr RGUI SEMI  &kp BSLH
+&kp LSHFT       &kp Z        &kp X        &kp C         &kp V             &kp B                              &kp N  &kp M         &kp COMMA     &kp DOT      &kp SQT         &kp RSHFT
+                             &kp GRAVE    &kp LGUI      &kp LEFT_CONTROL  &mo 2  &spc_lt 6 SPACE    &kp RET  &mo 3  &kp LALT      &kp LBKT      &kp RBKT
             >;
 
             display-name = "Base";
@@ -150,10 +150,10 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE        &kp RU_CYRILLIC_U         &kp RU_CYRILLIC_KA       &kp RU_CYRILLIC_IE                              &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA       &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE        &kp BSPC
-&kp TAB    &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                              &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O    &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE    &hmr RGUI RU_CYRILLIC_ZHE  &kp BSLH
-&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE        &kp RU_CYRILLIC_ES        &kp RU_CYRILLIC_EM       &kp RU_CYRILLIC_I                               &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE        &kp RU_CYRILLIC_YU         &kp RU_CYRILLIC_E         &kp RSHFT
-                                    &kp RU_CYRILLIC_IO         &kp LGUI                  &kp LCTRL                &mo 2               &spc_lt 6 SPACE    &kp RET  &mo 4               &kp LALT                   &kp RU_CYRILLIC_HA        &kp RU_CYRILLIC_HARD_SIGN
+&kp ESC    &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                              &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE         &kp BSPC
+&kp TAB    &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                              &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE   &hmr RGUI RU_CYRILLIC_ZHE  &kp BSLH
+&kp LSHFT  &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                               &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU         &kp RU_CYRILLIC_E          &kp RSHFT
+                                     &kp RU_CYRILLIC_IO          &kp LGUI                   &kp LCTRL                 &mo 2               &spc_lt 6 SPACE    &kp RET  &mo 4               &kp LALT                   &kp RU_CYRILLIC_HA         &kp RU_CYRILLIC_HARD_SIGN
             >;
         };
 
@@ -248,10 +248,10 @@
 
         wow {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3     &kp N4  &kp N5                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp Q     &kp W   &kp E      &kp R   &kp T                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp A     &kp S   &kp D      &kp F   &kp G                            &trans  &trans  &trans  &trans  &trans  &trans
-           &kp LALT  &none   &kp LCTRL  &mo 11  &kp SPACE    &trans    &trans  &trans  &trans  &trans
+&kp ESC    &kp N1  &kp N2    &kp N3  &kp N4     &kp N5                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q   &kp W     &kp E   &kp R      &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A   &kp S     &kp D   &kp F      &kp G                        &trans  &trans  &trans  &trans  &trans  &trans
+                   &kp LALT  &none   &kp LCTRL  &mo 11  &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "WoW";
@@ -259,10 +259,10 @@
 
         wow_num {
             bindings = <
-&kp GRAVE  &kp N6    &kp N7  &kp N8     &kp N9  &kp N0                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp Z     &kp X   &kp C      &kp V   &kp B                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp Y     &kp H   &kp J      &kp N   &kp M                            &trans  &trans  &trans  &trans  &trans  &trans
-           &kp LALT  &none   &kp LCTRL  &trans  &kp SPACE    &trans    &trans  &trans  &trans  &trans
+&kp GRAVE  &kp N6  &kp N7    &kp N8  &kp N9     &kp N0                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Z   &kp X     &kp C   &kp V      &kp B                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Y   &kp H     &kp J   &kp N      &kp M                        &trans  &trans  &trans  &trans  &trans  &trans
+                   &kp LALT  &none   &kp LCTRL  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "WoW Num";
