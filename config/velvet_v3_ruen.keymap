@@ -55,24 +55,6 @@
 
             mods = <(MOD_LGUI)>;
         };
-
-        spc_ru_ht: space_ru_holdtap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "balanced";
-            bindings = <&mo>, <&ru_space>;
-        };
-
-        spc_en_ht: space_en_holdtap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "balanced";
-            bindings = <&mo>, <&en_space>;
-        };
     };
 
     combos {
