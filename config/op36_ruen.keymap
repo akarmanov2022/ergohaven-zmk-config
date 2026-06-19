@@ -173,9 +173,9 @@
 
         sym_en {
             bindings = <
-  &kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                     &kp AT     &kp COMMA        &kp DOT          &kp PIPE        &kp QMARK
+  &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp DOUBLE_QUOTES  &kp UNDER        &kp APOS        &kp QUESTION
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHFT LBRC    &hmr RCTRL SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
+  &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DLLR                     &kp AT     &kp TILDE          &kp LBKT         &kp RBKT        &kp DOT
                                                     &trans           &mo 5      &trans    &trans  &none      &trans
             >;
 
@@ -184,9 +184,9 @@
 
         sym_ru {
             bindings = <
-  &en TILDE               &en LT          &kp EQUAL         &en GT           &en GRAVE                    &en CARET  &en LBKT      &kp UNDER           &en RBKT  &en DLLR
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &en LBRC      &hmr RCTRL RU_SEMI  &en RBRC  &hmr RGUI EXCL
-  &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT     &kp RU_COMMA  &kp RU_DOT          &en PIPE  &kp RU_QMARK
+  &en HASH                &en LT          &kp EQUAL         &en GT           &en GRAVE                    &en CARET  &en RU_DOUBLE_QUOTES    &kp UNDER           &en SINGLE_QUOTE       &en RU_QUESTION
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHIFT LEFT_BRACE  &hmr RCTRL RU_SEMI  &hmr RALT RIGHT_BRACE  &hmr RGUI EXCL
+  &en RU_COMMA            &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en DLLR                     &en AT     &kp TILDE               &en LBKT            &en RBKT               &en RU_DOT
                                                             &trans           &mo 5      &trans    &trans  &none      &trans
             >;
 
