@@ -153,11 +153,14 @@
             bindings =
                 <&to_en>,
                 <&macro_wait_time 50>,
-                <&macro_press>, <&mo 2>,
+                <&macro_press>,
+                <&mo 2>,
                 <&macro_pause_for_release>,
                 <&macro_wait_time 0>,
-                <&macro_release>, <&mo 2>,
-                <&macro_tap>, <&to_ru>;
+                <&macro_release>,
+                <&mo 2>,
+                <&macro_tap>,
+                <&to_ru>;
         };
     };
 
@@ -177,10 +180,10 @@
 
         ru {
             bindings = <
-  &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
-  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
-  &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_E
-                                                                                   &kp BACKSPACE             &mo 3               &kp SPACE    &kp ENTER  &sym_act            &kp TAB
+  &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                            &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
+  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                            &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
+  &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                             &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_E
+                                                                                   &kp BACKSPACE             &mo 3               &lt 8 SPACE    &kp ENTER  &sym_act            &kp TAB
             >;
 
             display-name = "Ru";
@@ -250,6 +253,17 @@
             >;
 
             display-name = "GameR";
+        };
+
+        ru_add {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans                    &trans  &kp RU_CYRILLIC_HA  &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &trans
+  &trans  &trans  &trans  &trans  &trans                    &trans  &trans              &trans              &trans                     &trans
+  &trans  &trans  &trans  &trans  &trans                    &trans  &trans              &trans              &trans                     &trans
+                          &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "ru_add";
         };
     };
 };
