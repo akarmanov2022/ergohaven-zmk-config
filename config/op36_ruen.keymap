@@ -180,10 +180,10 @@
 
         ru {
             bindings = <
-  &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                            &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
-  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                            &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
-  &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                             &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_E
-                                                                                   &kp BACKSPACE             &mo 3               &lt 8 SPACE    &kp ENTER  &sym_act            &kp TAB
+  &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
+  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
+  &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_E
+                                                                                   &kp BACKSPACE             &mo 3               &kp SPACE    &kp ENTER  &sym_act            &kp TAB
             >;
 
             display-name = "Ru";
@@ -224,10 +224,10 @@
 
         game {
             bindings = <
-  &kp TAB    &kp Q  &kp W  &kp E     &kp R                        &trans     &trans  &trans  &trans  &trans
-  &kp LSHFT  &kp A  &kp S  &kp D     &kp F                        &trans     &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V                        &trans     &trans  &trans  &trans  &trans
-                           &kp LALT  &mo 6  &lt 7 SPACE    &mo 6  &kp SPACE  &trans
+  &kp TAB    &kp Q     &kp W  &kp E  &kp R                      &trans     &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A     &kp S  &kp D  &kp F                      &trans     &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp LALT  &kp X  &kp C  &kp V                      &trans     &trans  &trans  &trans  &trans
+                              &mo 6  &mo 7  &kp SPACE    &mo 6  &kp SPACE  &trans
             >;
 
             display-name = "Game";
@@ -235,8 +235,8 @@
 
         game_num {
             bindings = <
-  &kp ESC  &kp N7  &kp N8  &kp N9  &kp N0                       &trans  &trans  &trans  &trans  &trans
-  &trans   &kp N4  &kp N5  &kp N6  &kp ENTER                    &trans  &trans  &trans  &trans  &trans
+  &trans   &kp N7  &kp N8  &kp N9  &kp N0                       &trans  &trans  &trans  &trans  &trans
+  &kp ESC  &kp N4  &kp N5  &kp N6  &kp ENTER                    &trans  &trans  &trans  &trans  &trans
   &trans   &kp N1  &kp N2  &kp N3  &trans                       &trans  &trans  &trans  &trans  &trans
                            &trans  &trans     &trans    &trans  &trans  &trans
             >;
