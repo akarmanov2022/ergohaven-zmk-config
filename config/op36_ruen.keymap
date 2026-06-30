@@ -37,14 +37,6 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             hold-trigger-on-release;
         };
-
-        hw_soft_off: hw_soft_off {
-            compatible = "zmk,behavior-soft-off";
-            label = "HW_SOFT_OFF";
-            #binding-cells = <0>;
-            hold-time-ms = <2000>;
-            split-peripheral-off-on-press;
-        };
     };
 
     combos {
@@ -86,12 +78,6 @@
             key-positions = <21 22 23>;
             layers = <0 1 5>;
             timeout-ms = <50>;
-        };
-
-        soft-off {
-            bindings = <&soft_off>;
-            key-positions = <5 6>;
-            layers = <0 1 5>;
         };
     };
 
