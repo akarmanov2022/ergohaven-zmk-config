@@ -226,10 +226,10 @@
 
         game_num {
             bindings = <
-  &trans   &kp N7  &kp N8  &kp N9  &kp N0                       &trans  &trans  &trans  &trans  &trans
-  &kp ESC  &kp N4  &kp N5  &kp N6  &kp ENTER                    &trans  &trans  &trans  &trans  &trans
-  &trans   &kp N1  &kp N2  &kp N3  &trans                       &trans  &trans  &trans  &trans  &trans
-                           &trans  &trans     &trans    &trans  &trans  &trans
+  &trans  &kp N1  &kp N2  &kp N3  &kp N0                       &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N4  &kp N5  &kp N6  &kp ENTER                    &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N7  &kp N8  &kp N9  &trans                       &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans     &trans    &trans  &trans  &trans
             >;
 
             display-name = "GameNum";
@@ -237,10 +237,10 @@
 
         game_right {
             bindings = <
-  &kp O    &kp I      &kp U  &kp Y     &kp T                        &trans  &trans  &trans  &trans  &trans
-  &kp L    &kp K      &kp J  &kp H     &kp G                        &trans  &trans  &trans  &trans  &trans
-  &kp DOT  &kp COMMA  &kp M  &kp N     &kp B                        &trans  &trans  &trans  &trans  &trans
-                             &kp RBKT  &kp LBKT  &trans    &kp RET  &trans  &trans
+  &kp O    &kp I  &kp U  &kp Y   &kp T                     &trans  &trans  &trans  &trans  &trans
+  &kp ESC  &kp K  &kp J  &kp H   &kp G                     &trans  &trans  &trans  &trans  &trans
+  &kp DOT  &kp L  &kp M  &kp N   &kp B                     &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             display-name = "GameR";
