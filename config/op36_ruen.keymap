@@ -182,9 +182,9 @@
 
         sym {
             bindings = <
-  &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp DOUBLE_QUOTES  &kp UNDER        &kp APOS        &kp QUESTION
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHFT LBRC    &hmr RCTRL SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DLLR                     &kp AT     &kp TILDE          &kp LBKT         &kp RBKT        &kp DOT
+  &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp AMPERSAND    &kp UNDER        &kp APOS        &kp QUESTION
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
+  &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DLLR                     &kp AT     &kp TILDE        &kp LBKT         &kp RBKT        &kp DOT
                                                     &trans           &mo 4      &trans    &trans  &none      &trans
             >;
 
