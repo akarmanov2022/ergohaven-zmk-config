@@ -213,18 +213,18 @@
             display-name = "Adjust";
         };
 
-        game {
+        games_1 {
             bindings = <
-  &kp TAB    &kp Q     &kp W  &kp E  &kp R                      &trans     &trans  &trans  &trans  &trans
-  &kp LSHFT  &kp A     &kp S  &kp D  &kp F                      &trans     &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp LALT  &kp X  &kp C  &kp V                      &trans     &trans  &trans  &trans  &trans
-                              &mo 6  &mo 7  &kp SPACE    &mo 6  &kp SPACE  &trans
+  &kp TAB    &kp Q     &kp W  &kp E  &kp R                       &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A     &kp S  &kp D  &kp F                       &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp LALT  &kp X  &kp C  &kp V                       &trans  &trans  &trans  &trans  &trans
+                              &mo 6  &mo 7  &kp SPACE    &trans  &trans  &trans
             >;
 
             display-name = "Game";
         };
 
-        game_num {
+        games_2 {
             bindings = <
   &trans  &kp N1  &kp N2  &kp N3  &kp N0                       &trans  &trans  &trans  &trans  &trans
   &trans  &kp N4  &kp N5  &kp N6  &kp ENTER                    &trans  &trans  &trans  &trans  &trans
@@ -235,7 +235,7 @@
             display-name = "GameNum";
         };
 
-        game_right {
+        game_3 {
             bindings = <
   &kp O    &kp I  &kp U  &kp Y   &kp T                     &trans  &trans  &trans  &trans  &trans
   &kp ESC  &kp K  &kp J  &kp H   &kp G                     &trans  &trans  &trans  &trans  &trans
