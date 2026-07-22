@@ -79,6 +79,11 @@
             layers = <0 1 5>;
             timeout-ms = <50>;
         };
+
+        letter_e {
+            bindings = <&kp RU_CYRILLIC_IO>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
