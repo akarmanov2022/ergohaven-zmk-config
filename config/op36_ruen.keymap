@@ -84,6 +84,11 @@
             bindings = <&kp RU_CYRILLIC_IO>;
             key-positions = <8 9>;
         };
+
+        to_dota {
+            bindings = <&tog 9>;
+            key-positions = <20 22 21>;
+        };
     };
 
     macros {
@@ -260,6 +265,17 @@
             >;
 
             label = "ru_add";
+        };
+
+        dota {
+            bindings = <
+  &kp Q  &kp W  &kp E  &kp R      &kp T                          &trans  &trans  &trans  &trans  &trans
+  &kp A  &kp S  &kp D  &kp F      &kp G                          &trans  &trans  &trans  &trans  &trans
+  &kp Z  &kp X  &kp C  &kp V      &kp B                          &trans  &trans  &trans  &trans  &trans
+                       &kp LCTRL  &kp LALT  &kp SPACE    &trans  &trans  &trans
+            >;
+
+            label = "dota";
         };
     };
 };
