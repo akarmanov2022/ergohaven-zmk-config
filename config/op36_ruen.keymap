@@ -130,7 +130,7 @@
         en {
             bindings = <
   &kp Q        &kp W        &kp E         &kp R          &kp T                          &kp Y  &kp U         &kp I         &kp O        &kp P
-  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F   &kp G                          &kp H  &hmr RCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RGUI SEMICOLON
+  &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F   &kp G                          &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr LALT L  &hmr RGUI SEMICOLON
   &kp Z        &kp X        &kp C         &kp V          &kp B                          &kp N  &kp M         &kp COMMA     &kp DOT      &kp SQT
                                           &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
@@ -141,7 +141,7 @@
         ru {
             bindings = <
   &kp RU_CYRILLIC_SHORT_I   &kp RU_CYRILLIC_TSE         &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA        &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
-  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LSHFT RU_CYRILLIC_VE  &hml LCTRL RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr RCTRL RU_CYRILLIC_O   &hmr RSHFT RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
+  &hml LGUI RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr LALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
   &kp RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_E
                                                                                    &kp BACKSPACE             &mo 4               &kp SPACE    &kp ENTER  &mo 3               &kp TAB
             >;
@@ -152,7 +152,7 @@
         sym_en {
             bindings = <
   &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                     &kp CARET  &kp PIPE         &kp AMPERSAND     &kp SQT            &kp QMARK
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                      &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI   &hmr LALT RBRC     &hmr RGUI EXCL
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                      &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI   &hmr LALT RBRC     &hmr RGUI EXCL
   &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT
                                                     &trans           &mo 5       &trans    &trans  &none      &trans
             >;
@@ -174,7 +174,7 @@
         nav {
             bindings = <
   &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7    &kp N8     &kp N9     &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp LG(LS(NUMBER_5))
+  &hml LGUI ESC  &kp LALT  &kp LCTRL  &kp LSHFT  &kp ENTER                     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp LG(LS(NUMBER_5))
   &layer_en      &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS  &none     &kp PG_DN  &kp PG_UP  &layer_ru
                                       &trans     &none       &trans    &trans  &mo 5     &trans
             >;
