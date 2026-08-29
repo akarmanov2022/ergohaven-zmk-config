@@ -56,25 +56,25 @@
 
         io {
             bindings = <&kp RU_CYRILLIC_IO>;
-            key-positions = <19 29>;
+            key-positions = <8 9>;
             layers = <1>;
         };
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <17 27>;
+            key-positions = <2 3>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <17 27>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         to_games {
             bindings = <&tog 6>;
-            key-positions = <18 28>;
+            key-positions = <22 23>;
             layers = <0 1 6>;
         };
     };
