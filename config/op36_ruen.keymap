@@ -1,5 +1,4 @@
 #include "keys_ru.h"
-#include "keys_ru.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -52,6 +51,12 @@
         hrdsgn {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        io {
+            bindings = <&kp RU_CYRILLIC_IO>;
+            key-positions = <19 29>;
             layers = <1>;
         };
 
@@ -159,28 +164,28 @@
             bindings = <
   &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                     &kp CARET  &kp PIPE         &kp AMPERSAND     &kp SQT            &kp QMARK
   &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                      &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI   &hmr LALT RBRC     &hmr RGUI EXCL
-  &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT
+  &kp UNDER       &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT
                                                     &trans           &mo 5       &trans    &trans  &none      &trans
             >;
 
-            display-name = "Symbols";
+            display-name = "Sym En";
         };
 
         sym_ru {
             bindings = <
   &en HASH                &en LT          &kp EQUAL         &en GT           &en GRAVE                    &en CARET  &kp RU_DQT  &en AMPERSAND       &en SQT            &kp RU_QMARK
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &en LBRC    &hmr RSHFT RU_SEMI  &en RBRC           &hmr RGUI EXCL
-  &kp RU_COMMA            &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT     &en TILDE   &en LEFT_BRACKET    &en RIGHT_BRACKET  &kp RU_DOT
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &en LBRC    &hmr RCTRL RU_SEMI  &en RBRC           &hmr RGUI EXCL
+  &kp RU_UNDER            &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en DLLR                     &en AT     &en TILDE   &en LEFT_BRACKET    &en RIGHT_BRACKET  &kp RU_DOT
                                                             &trans           &mo 5      &trans    &trans  &none      &trans
             >;
 
-            display-name = "Symbols";
+            display-name = "Sym Ru";
         };
 
         nav {
             bindings = <
   &kp N1         &kp N2          &kp N3          &kp N4           &kp N5                        &kp N6    &kp N7    &kp N8     &kp N9     &kp N0
-  &hml LGUI ESC  &hml LALT HOME  &hml LCTRL INS  &hmr LSHFT END   &kp ENTER                     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp LG(LS(NUMBER_5))
+  &hml LGUI ESC  &hml LALT HOME  &hml LCTRL INS  &hml LSHFT END   &kp ENTER                     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp LG(LS(NUMBER_5))
   &layer_en      &kp K_PWR       &kp K_LOCK      &kp C_AC_SEARCH  &kp DELETE                    &kp CAPS  &none     &kp PG_DN  &kp PG_UP  &layer_ru
                                                  &trans           &none       &trans    &trans  &mo 5     &trans
             >;
@@ -191,7 +196,7 @@
         adj {
             bindings = <
   &bootloader  &kp F1        &kp F2         &kp F3         &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &kp LGUI     &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
+  &kp LGUI     &hml LALT F5  &hml LCTRL F6  &hml LSHFT F7  &kp F8                     &out OUT_BLE  &hmr RSHFT C_VOL_DN  &hmr RCTRL C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
   &none        &kp F9        &kp F10        &kp F11        &kp F12                    &out OUT_USB  &kp C_PREV           &kp C_PP           &kp C_NEXT          &studio_unlock
                                             &trans         &trans   &trans    &trans  &trans        &trans
             >;
