@@ -164,7 +164,7 @@
             bindings = <
   &kp HASH        &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                     &kp CARET  &kp PIPE         &kp AMPERSAND     &kp SQT            &kp QMARK
   &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                      &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI   &hmr LALT RBRC     &hmr RGUI EXCL
-  &kp UNDER       &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT
+  &kp COMMA       &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOT
                                                     &trans           &mo 5       &trans    &trans  &none      &trans
             >;
 
@@ -174,8 +174,8 @@
         sym_ru {
             bindings = <
   &en HASH                &en LT          &kp EQUAL         &en GT           &en GRAVE                    &en CARET  &kp RU_DQT  &en AMPERSAND       &en SQT            &kp RU_QMARK
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &kp PRCNT  &en LBRC    &hmr RCTRL RU_SEMI  &en RBRC           &hmr RGUI EXCL
-  &kp RU_UNDER            &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en DLLR                     &en AT     &en TILDE   &en LEFT_BRACKET    &en RIGHT_BRACKET  &kp RU_DOT
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHFT RPAR  &kp PLUS                     &en PRCNT  &en LBRC    &hmr RCTRL RU_SEMI  &en RBRC           &hmr RGUI EXCL
+  &kp RU_COMMA            &en STAR        &kp RU_COLON      &kp RU_FSLH      &en DLLR                     &en AT     &en TILDE   &en LEFT_BRACKET    &en RIGHT_BRACKET  &kp RU_DOT
                                                             &trans           &mo 5      &trans    &trans  &none      &trans
             >;
 
